@@ -28,6 +28,8 @@ console.log(`div of ${num1} / ${num2} is : ${num1 / num2}`);
 
 // % (Modulus) is generally used to get Result... for ex :-
 // Write a program of even or odd using Arithmetic Operators
+
+// using the symbol "$" we show the things dynamically
 let num = 13;
 if(num % 2 ===0){
     console.log(`${num} is an Even number`);

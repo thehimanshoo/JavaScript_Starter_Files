@@ -98,10 +98,3 @@ console.log(`Today is : ${today}`);
         star += `\n`;
     }console.log(star);
     
-// While loop Example to display from 1 - 10 values
-
-
-// Do while loop Example to display from 1 - 10 values
-
-
-// Switch Statement Example

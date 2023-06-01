@@ -1,6 +1,10 @@
-console.log('Welcome to the JavaScript');
-
 // To show the various messageg on the console window like some kind of log,info,warn,error & table messageg then we use this command
+
+console.log('Welcome to JavaScript');
+console.error("Welcome to JavaScript");
+console.info("Welcome to JavaScript");
+console.warn("Welcome to JavaScript");
+console.table("Welcome to JavaScript");
 
 // log
 console.log('I am a log message');

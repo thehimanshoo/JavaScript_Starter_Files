@@ -1389,7 +1389,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
   background-color: #fff; }
 
 .bg-primary {
-  background-color: #4285f4 !important; }
+  background: linear-gradient(45deg, black,#7507e7) !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -1400,7 +1400,7 @@ button.bg-primary:focus {
   border-color: #4285f4 !important; }
 
 .bg-danger {
-  background-color: #ff3547 !important; }
+  background: linear-gradient(45deg, darkred,black) !important; }
 
 a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
@@ -1411,7 +1411,7 @@ button.bg-danger:focus {
   border-color: #ff3547 !important; }
 
 .bg-warning {
-  background-color: #ffbb33 !important; }
+  background: linear-gradient(45deg, darkslategray, #f1a308) !important; }
 
 a.bg-warning:hover, a.bg-warning:focus,
 button.bg-warning:hover,
@@ -1422,7 +1422,7 @@ button.bg-warning:focus {
   border-color: #ffbb33 !important; }
 
 .bg-success {
-  background-color: #00c851 !important; }
+  background: linear-gradient(45deg, #00c851,black) !important; }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
@@ -1433,7 +1433,7 @@ button.bg-success:focus {
   border-color: #00c851 !important; }
 
 .bg-info {
-  background-color: #33b5e5 !important; }
+  background: linear-gradient(45deg, #33b5e5,black) !important; }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
@@ -1444,7 +1444,7 @@ button.bg-info:focus {
   border-color: #33b5e5 !important; }
 
 .bg-default {
-  background-color: #2bbbad !important; }
+  background: linear-gradient(45deg, #2bbbad,black) !important; }
 
 a.bg-default:hover, a.bg-default:focus,
 button.bg-default:hover,
@@ -1455,7 +1455,7 @@ button.bg-default:focus {
   border-color: #2bbbad !important; }
 
 .bg-secondary {
-  background-color: #aa66cc !important; }
+  background: linear-gradient(45deg, #FFA500,black)!important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -1466,7 +1466,7 @@ button.bg-secondary:focus {
   border-color: #aa66cc !important; }
 
 .bg-dark {
-  background-color: #212121 !important; }
+  background: linear-gradient(45deg, #212121,darkslategrey) !important; }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -1477,7 +1477,7 @@ button.bg-dark:focus {
   border-color: #212121 !important; }
 
 .bg-light {
-  background-color: #e0e0e0 !important; }
+  background: linear-gradient(45deg, #e0e0e0,grey) !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -4714,7 +4714,7 @@ a.waves-effect, a.waves-light {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 .btn-danger {
-  background-color: #ff3547 !important;
+  background: linear-gradient(45deg, #ff3547,black)!important;
   color: #fff !important; }
   .btn-danger:hover {
     background-color: #ff4f5e; }
@@ -4762,8 +4762,12 @@ a.waves-effect, a.waves-light {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 .btn-warning {
-  background-color: #ffbb33 !important;
-  color: #fff !important; }
+  background: linear-gradient(45deg, darkslategray, #f1a308) !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  box-shadow: 0 0 5px black;
+  text-shadow: 2px 0 0 black;
+}
   .btn-warning:hover {
     background-color: #ffc44d; }
   .btn-warning:focus, .btn-warning.focus {
@@ -6660,31 +6664,31 @@ a.waves-effect, a.waves-light {
   padding-left: 0.6em; }
 
 .badge-primary {
-  background-color: #4285f4 !important;
+  background: linear-gradient(45deg, #4285f4,black)!important;
   color: #fff !important; }
 
 .badge-danger {
-  background-color: #ff3547 !important;
+  background: linear-gradient(45deg, #ff3547,black)!important;
   color: #fff !important; }
 
 .badge-warning {
-  background-color: #ffbb33 !important;
+  background: linear-gradient(45deg, #ffbb33,black)!important;
   color: #fff !important; }
 
 .badge-success {
-  background-color: #00c851 !important;
+  background: linear-gradient(45deg, #00c851,black)!important;
   color: #fff !important; }
 
 .badge-info {
-  background-color: #33b5e5 !important;
+  background: linear-gradient(45deg, #33b5e5,black)!important;
   color: #fff !important; }
 
 .badge-default {
-  background-color: #2bbbad !important;
+  background: linear-gradient(45deg, #2bbbad,black)!important;
   color: #fff !important; }
 
 .badge-secondary {
-  background-color: #aa66cc !important;
+  background: linear-gradient(45deg, #aa66cc,black)!important;
   color: #fff !important; }
 
 .badge-dark {

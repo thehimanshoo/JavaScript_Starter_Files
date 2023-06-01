@@ -12,7 +12,7 @@
 *  */
 
 // String Examples
-let employeeName = 'John';
+let employeeName = "John";
 /*
     Here (let) is not any data-type... It is only indicating a variable declaration... It is just a key to declare
     a variable it is not the meaning of declaring any data-types , So we never even mentioned what types of data we 

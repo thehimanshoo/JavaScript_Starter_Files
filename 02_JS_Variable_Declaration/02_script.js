@@ -56,7 +56,7 @@ console.log(`The sum of ${a} , ${b} is : ${sum}`);
             console.log(name);  // It gives error like "Identifier name has already been declared..." it means once you declare a variable
                                    then make sure that you must not re-declare the same Variable, you will have to declare the different variable for the program...
 
-                                   and one more thing if you declare the variable and assign some value to it also and and you wanna declare the same variable for
+                                   and one more thing if you declare the variable and assign some value to it also, and you want to declare the same variable for
                                    the new value which you want to upgrade then just write the "Identifier" name directly without using (Let-keyword) with the new
                                    value and just print it , it will not give any error value... But always remember that define that (Identifier) without using
                                    (let-keyword), if you use the (let-keyword) then its again start showing error message...
